@@ -13,7 +13,6 @@ app = application
 ##route for a home page
 
 @app.route('/')
-
 def index():
     return render_template('index.html')
 
